@@ -1,0 +1,29 @@
+.container {
+  background-color: pink;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+#firstname, #lastname {
+  width: 250px;
+}
+
+.btn {
+  width: 250px;
+  clear: left;
+  float: left;
+}
+
+#image {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+
+.save-status {
+  width: 200px;
+  height: 100px;
+}

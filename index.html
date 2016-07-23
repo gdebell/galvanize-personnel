@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Galvanize Personnel</title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <meta charset="utf-8">
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+      <link rel="stylesheet" href="./src/main.css">
+    <title>Galvanize Personnel</title>
+  </head>
+  <body class="container">
+
+      <h1>Galvanize Personnel</h2>
+      <form>
+        <div class="form-group">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" placeholder="First Name">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="lastname" id="lastname" placeholder="Last Name">
+        </div>
+        <div class="form-group">
+          <label for="role">Role</label>
+          <select class="form-control" id="select">
+            <option value="">-Select an Option Here-</option>
+          </select>
+        </div>
+
+        <img alt="" id="image" src=""></img>
+
+        <br><br>
+        <button type="submit" class="btn btn-default">Save</button>
+        <br>
+      </form>
+        <p class="save-status"></p>
+      <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+      <!-- <script type="text/javascript" src="./assets/scripts/app.js"</script> -->
+      <script type="text/javascript" src="./src/main.js"></script>
+
+  </body>
 </html>
