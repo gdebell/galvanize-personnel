@@ -58,4 +58,4 @@ $('form').on('submit', function(e) {
     var titleSelect = $('#select').val();
     console.log(titleSelect);
   $('#image').attr("src", "./src/images/" + titleSelect + ".jpg") ;
-});
+ });
