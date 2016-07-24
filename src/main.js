@@ -32,7 +32,7 @@ $('form').on('submit', function(e) {
       firstName: fn,
       lastName: ln,
       role: rl
-    }
+    }      
     //console.log(userInput);
 
     $.ajax({
