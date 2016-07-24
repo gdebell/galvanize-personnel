@@ -5,7 +5,7 @@ console.log("Working!");
 //get role names from website
 $(function() {
       $.ajax({
-        url: 'http://galvanize-student-apis.herokuapp.com/gpersonnel/roles',
+        url: 'https://galvanize-student-apis.herokuapp.com/gpersonnel/roles',
         method: 'GET'
 
       }).done(function(data) {
@@ -37,7 +37,7 @@ $('form').on('submit', function(e) {
 
     $.ajax({
       method: 'POST',
-      url: "http://galvanize-student-apis.herokuapp.com/gpersonnel/users",
+      url: "https://galvanize-student-apis.herokuapp.com/gpersonnel/users",
       data: userInput,
 
       success: function (info) {
