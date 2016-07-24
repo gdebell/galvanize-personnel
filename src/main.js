@@ -15,8 +15,7 @@ $(function() {
         console.log(data[0].title);
 
       for (var i = 0; i < data.length; i++) {
-        var profiletitle = data[i].title;
-        var image = data[i].img;
+        var profiletitle = data[i].title.toLowerCase();
         $('.form-control').append('<option class="role">' + profiletitle + '</option>');
       }
     })
